@@ -1,0 +1,50 @@
+@font-face {
+  font-family: "OpenSans";
+  src: url("/OpenSans-VariableFont_wdth,wght.ttf") format("woff2-variations");
+  font-weight: 125 950;
+  font-stretch: 75% 125%;
+  font-style: normal;
+}
+
+* {
+  font-family: 'OpenSans';
+  font-weight: 400;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html, body, body > div {
+  height: 100%;
+}
+
+ul {
+  margin-left: 1rem;
+}
+
+a {
+  color: black;
+}
+
+button {
+  padding: 0.5rem 0.75rem;
+
+  cursor: pointer;
+
+  border: none;
+  border-radius: 0.5rem;
+  background-color: rgb(0, 145, 255);
+  color: white;
+}
+
+button:hover {
+  background-color: rgb(79, 179, 255);
+}
+
+button:disabled {
+  background-color: rgb(79, 179, 255);
+}
+
+*:disabled {
+  cursor: not-allowed;
+}

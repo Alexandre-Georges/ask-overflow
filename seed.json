@@ -1,0 +1,129 @@
+[{
+  "_id": {
+    "$oid": "63daf17354de7c51d0059853"
+  },
+  "answer": {
+    "text": "Some popular front-end frameworks include:\n\n- React: Developed by Facebook, it's a JavaScript library for building user interfaces.\n- Angular: Developed by Google, it's a JavaScript framework for building web and mobile apps.\n- Vue: Developed by a Chinese developer and an open-source framework for building user interfaces and single-page applications\n- Ember: A JavaScript framework for building web applications.\n- Svelte: A JavaScript framework for building web applications that runs at build-time rather than in the browser.\n\nIt depends on the specific use case and the developer's preferences. Each framework has its own strengths and weaknesses, and some may be better suited to certain types of projects than others. It is recommended to try out a few to see which one works best for you.",
+    "keywords": [
+      "React",
+      "Angular",
+      "Vue",
+      "Ember",
+      "Svelte",
+      "JavaScript library",
+      "JavaScript framework",
+      "user interfaces",
+      "single-page applications",
+      "web applications",
+      "strengths and weaknesses"
+    ]
+  },
+  "createdAt": "2023-02-01T23:35:39.234Z",
+  "parentId": null,
+  "message": {
+    "text": "What are the best front-end frameworks?",
+    "keywords": [
+      "JavaScript library",
+      "JavaScript framework",
+      "user interfaces",
+      "single-page applications",
+      "web applications",
+      "strengths and weaknesses"
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "63daf17354de7c51d0059854"
+  },
+  "answer": {
+    "text": "Yes, here are the links to the GitHub repositories for the frameworks I listed:\n- React: https://github.com/facebook/react\n- Angular: https://github.com/angular/angular\n- Vue: https://github.com/vuejs/vue\n- Ember: https://github.com/emberjs/ember.js\n- Svelte: https://github.com/sveltejs/svelte\n\nPlease note that these are the main repos for the framework, there may be additional repos for tools and libraries that are associated with the framework.",
+    "keywords": []
+  },
+  "createdAt": "2023-02-01T23:35:39.259Z",
+  "parentId": "63daf17354de7c51d0059853",
+  "message": {
+    "text": "Do you have Github links for that?",
+    "keywords": []
+  }
+},{
+  "_id": {
+    "$oid": "63dda29e60ca18c41b216fcf"
+  },
+  "answer": {
+    "keywords": [
+      "Design Patterns",
+      "Creational Patterns",
+      "Structural Patterns",
+      "Behavioral Patterns",
+      "Factory Method",
+      "Abstract Factory",
+      "Builder",
+      "Prototype",
+      "Singleton",
+      "Object Pool",
+      "Adapter",
+      "Bridge",
+      "Composite",
+      "Decorator ",
+      "Facade ",
+      "Flyweight ",
+      "Proxy ",
+      "Chain of Responsibility ",
+      "Command ",
+      "Inter"
+    ],
+    "text": "The main design patterns are:\n\n1. Creational patterns:  Factory Method, Abstract Factory, Builder, Prototype, Singleton, Object Pool\n\n2. Structural patterns: Adapter, Bridge, Composite, Decorator, Facade, Flyweight, Proxy\n\n3. Behavioral patterns: Chain of Responsibility, Command, Interpreter, Iterator, Mediator, Memento, Observer, State, Strategy, Template Method, Visitor.\n\nThese patterns provide solutions to common problems faced in software development, and they can be used as a reference or starting point when designing software systems."
+  },
+  "createdAt": "2023-02-04T00:11:10.782Z",
+  "message": {
+    "keywords": [
+      "Design Patterns",
+      "Main",
+      "Design"
+    ],
+    "text": "What are the main design patterns?"
+  },
+  "parentId": null
+},{
+  "_id": {
+    "$oid": "63dda30e60ca18c41b216fd0"
+  },
+  "answer": {
+    "keywords": [],
+    "text": "Yes, here are some examples for each of the design patterns:\n\n1. Creational patterns:\n   - Factory Method: Creating objects without specifying the exact class of object that will be created. Example: creating a document editor and not specifying the exact type of document that will be created (e.g. text document, spreadsheet, etc.).\n   - Abstract Factory: Providing an interface for creating families of related or dependent objects without specifying their concrete classes. Example: a factory creating GUI widgets for different platforms (e.g. Windows, Mac, Linux).\n   - Builder: Separating the construction of a complex object from its representation, allowing the same construction process to create various representations. Example: building a car, with different parts assembled in a specific order.\n   - Prototype: Creating new objects by cloning an existing object, instead of creating objects from scratch. Example: copying a form and filling it out multiple times.\n   - Singleton: Ensuring that a class has only one instance and providing a global point of access to it. Example: a database connection pool, where only a single instance of the database connection is needed.\n   - Object Pool: Reusing objects that are expensive to create, instead of creating a new object each time one is needed. Example: a pool of database connections that can be reused instead of creating a new connection each time.\n\n2. Structural patterns:\n   - Adapter: Matching interfaces of different classes, allowing objects to work together that couldn't otherwise because of incompatible interfaces. Example: a card reader that makes a USB connection appear as a serial connection.\n   - Bridge: Separating an object's interface from its implementation, allowing the two to vary independently. Example: a graphics library abstracting the underlying windowing system.\n   - Composite: Composing objects into tree structures to represent part-whole hierarchies. Example: representing a file system, where a folder can contain files and other folders.\n   - Decorator: Attaching additional responsibilities to an object dynamically, providing a flexible alternative to subclassing for extending functionality. Example: adding toppings to a pizza.\n   - Facade: Providing a simplified interface to a complex system, hiding its internal complexity. Example: a power button on a computer, which turns on many internal components with a single press.\n   - Flyweight: Sharing objects to allow their use at multiple locations, reducing memory usage and improving performance. Example: using a single shared instance of an object instead of creating a new instance for each use.\n   - Proxy: Providing a surrogate or placeholder object, which references an underlying object, controlling access to it. Example: a network proxy, which routes network requests and caches results.\n\n3. Behavioral patterns:\n   - Chain of Responsibility: Allowing objects to pass requests along a dynamic chain of receivers until one of them handles the request. Example: a help system where the request for help is passed along a chain of objects until it is handled.\n   - Command: Encapsulating a request as an object, allowing clients to parameterize objects with different requests, queue or log requests, and support undo-redo. Example: a menu item that acts as a command, executing a specific action when selected.\n   - Interpreter: Implementing a specialized language, allowing it to be used to solve problems in a specific domain. Example: a mathematical expression interpreter, evaluating expressions written in a custom language.\n   - Iterator: Accessing the elements of an object sequentially without exposing its underlying representation. Example: an iterator for a list, allowing elements to be retrieved one at a time.\n   - Mediator: Defining an object that controls communication between"
+  },
+  "createdAt": "2023-02-04T00:13:02.197Z",
+  "message": {
+    "keywords": [],
+    "text": "Do you have examples for each one of them?"
+  },
+  "parentId": "63dda29e60ca18c41b216fcf"
+},{
+  "_id": {
+    "$oid": "63dda537f581dfadbd16d57f"
+  },
+  "answer": {
+    "keywords": [],
+    "text": "Comparing SolidJS and React is a subjective matter as it depends on individual requirements and use cases. Both SolidJS and React are JavaScript libraries for building user interfaces. \n\nReact is widely used, has a large community and is backed by Facebook, which makes it a popular choice for building scalable applications. It provides a flexible and modular approach to building UI components and has a large number of available third-party tools and plugins. \n\nSolidJS, on the other hand, is a relatively new library that focuses on providing fast performance and improved code structure. It uses a template-based syntax, which some developers find easier to read and write. It also offers improved performance compared to React, as it generates highly optimized JavaScript code.\n\nUltimately, the choice between SolidJS and React will depend on the specific needs and requirements of a project. Both libraries have their own strengths and weaknesses and the best choice will depend on the particular use case."
+  },
+  "createdAt": "2023-02-04T00:22:15.031Z",
+  "message": {
+    "keywords": [],
+    "text": "Is SolidJS better than React?"
+  },
+  "parentId": null
+},{
+  "_id": {
+    "$oid": "63dda58ef581dfadbd16d580"
+  },
+  "answer": {
+    "keywords": [],
+    "text": "React is widely loved by developers as it has a large and active community and is backed by Facebook. It has been around for several years and has established itself as one of the most popular JavaScript libraries for building user interfaces. React provides a flexible and modular approach to building UI components and has a large number of available third-party tools and plugins.\n\nSolidJS is a relatively new library and is not as widely adopted as React, but it has a growing community of developers who appreciate its focus on performance and improved code structure.\n\nIt is difficult to definitively say which one is more loved by developers as both have their own strengths and weaknesses and the choice between them depends on the specific needs and requirements of a project."
+  },
+  "createdAt": "2023-02-04T00:23:42.423Z",
+  "message": {
+    "keywords": [],
+    "text": "Which one is the most loved by developers?"
+  },
+  "parentId": "63dda537f581dfadbd16d57f"
+}]

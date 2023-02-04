@@ -1,0 +1,46 @@
+.skinny {
+  font-variation-settings: "wght" 100;
+}
+.thin {
+  font-variation-settings: "wght" 200;
+}
+.semithin {
+  font-variation-settings: "wght" 300;
+}
+.semibold {
+  font-variation-settings: "wght" 500;
+}
+.bold {
+  font-variation-settings: "wght" 600;
+}
+.xbold {
+  font-variation-settings: "wght" 700;
+}
+.xxbold {
+  font-variation-settings: "wght" 800;
+}
+.xxxbold {
+  font-variation-settings: "wght" 900;
+}
+
+.xxsmall {
+  font-size: 0.5rem;
+}
+.xsmall {
+  font-size: 0.75rem;
+}
+.small {
+  font-size: 0.85rem;
+}
+.large {
+  font-size: 1.15rem;
+}
+.xlarge {
+  font-size: 1.25rem;
+}
+.xxlarge {
+  font-size: 1.5rem;
+}
+.xxxlarge {
+  font-size: 2rem;
+}

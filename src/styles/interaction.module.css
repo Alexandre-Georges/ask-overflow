@@ -1,0 +1,51 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 2rem;
+  
+  min-height: 100%;
+  padding: 1rem 0 2rem;
+
+  background: rgb(255,160,80);
+  background: linear-gradient(0deg, rgba(255,160,80,1) 0%, rgba(255,197,80,1) 30%, rgba(255,240,81,1) 100%);
+}
+
+.card {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  max-width: 40rem;
+  background-color: white;
+}
+
+.message {
+  position: relative;
+  width: 50%;
+  transform: translateX(-20%);
+
+  padding-bottom: 1.5rem;
+}
+
+.date {
+  position: absolute;
+  bottom: 0.5rem;
+  right: 0.5rem;
+}
+
+.answer {
+  width: 70%;
+  transform: translateX(10%);
+}
+
+.relatedconversations {
+  margin-top: 4rem;
+  width: 70%;
+}
+
+.relatedinteractions {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+
+  margin-top: 1rem;
+}
